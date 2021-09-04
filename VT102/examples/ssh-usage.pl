@@ -185,7 +185,7 @@ while (not $eof) {
 	# we know have changed, to avoid generating too much output.
 	#
 	$didout = 0;
-	foreach my $row (sort keys %$changedrows) {
+	foreach my $row (sort { $a <=> $b } keys %$changedrows) {
 		printf "\e[%dH%s\r", $row, $vt->row_sgrtext ($row);
 		delete $changedrows->{$row};
 		$didout ++;

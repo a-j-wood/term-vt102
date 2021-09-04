@@ -31,3 +31,6 @@ Credit is also due to:
   Joerg Walter
     - provided a patch for Unicode handling
 
+  [hughhome]
+    - fixed row ordering bug in usage examples
+

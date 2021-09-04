@@ -1,5 +1,8 @@
 Changes that have been made over time:
 
+UNRELEASED
+  - patch from "hughhome" fixing an ordering bug in the usage examples
+
 0.91 - 9 November 2008
   - patch from Joerg Walter to fix Unicode handling
   - minor escape sequence processing cleanup
